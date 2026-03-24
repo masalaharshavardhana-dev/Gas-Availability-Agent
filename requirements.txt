@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-groq
+langchain-experimental
+python-dotenv
+pandas
+groq
+streamlit-mic-recorder
