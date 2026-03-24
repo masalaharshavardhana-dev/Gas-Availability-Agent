@@ -6,3 +6,4 @@ python-dotenv
 pandas
 groq
 streamlit-mic-recorder
+tabulate
