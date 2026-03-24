@@ -32,7 +32,7 @@ def get_pandas_agent(df: pd.DataFrame, api_key: str = None, model_name: str = "l
         "4. ALWAYS limit your response to EXACTLY the TOP 3 results total.\n"
         "6. ALWAYS format your output as a Markdown Table with columns: | Name | Area | Availability | Phone |.\n"
         "7. Be concise, professional, and helpful."
-        "8. do not generate map"
+        "8. do not generate map Agencies."
     )
 
     agent = create_pandas_dataframe_agent(
