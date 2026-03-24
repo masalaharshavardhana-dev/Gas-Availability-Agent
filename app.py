@@ -58,11 +58,8 @@ if prompt:
                     response = agent.run(prompt)
                     st.markdown(response)
                     
-                    if "latitude" in df.columns and "longitude" in df.columns:
-                        with st.expander("📍 View Map of Agencies"):
-                            st.map(df[['latitude', 'longitude']])
-                            
                     st.session_state.messages.append({"role": "assistant", "content": response})
+
                 else:
                     st.error(f"Error: {csv_path} not found.")
     except Exception as e:
